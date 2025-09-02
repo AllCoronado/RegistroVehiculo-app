@@ -1,0 +1,32 @@
+# Documentación del código Java
+
+## Código: RegistroVehiculo.java
+
+1. `import java.util.Scanner;`  
+   → Importa la clase Scanner para leer datos desde el teclado.
+
+2. `public class RegistroVehiculo {`  
+   → Define la clase principal del programa. El nombre debe coincidir con el archivo.
+
+3. `public static void main(String[] args) {`  
+   → Método principal. Es donde empieza a ejecutarse el programa.
+
+4. `Scanner input = new Scanner(System.in);`  
+   → Crea un lector de teclado llamado `input`.
+
+5. `System.out.print("Ingrese la marca: ");`  
+   → Muestra un mensaje en pantalla.
+
+6. `String marca = input.nextLine();`  
+   → Guarda lo que el usuario escribe en la variable `marca`.
+
+7. Repite lo mismo para `modelo`, `cilindrada`, `combustible`.
+
+8. `int capacidad = input.nextInt();`  
+   → Guarda un número entero en la variable `capacidad`.
+
+9. `System.out.println(...)`  
+   → Muestra los datos ingresados por el usuario.
+
+10. `}`  
+    → Cierra el método y la clase.
