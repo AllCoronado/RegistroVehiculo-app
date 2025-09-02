@@ -1,0 +1,48 @@
+# Proceso de Compilación y Ejecución del Programa
+
+Este documento describe el proceso completo para compilar y ejecutar el programa `RegistroVehiculo.java` sin utilizar herramientas IDE.
+
+## 1. Creación del archivo fuente
+
+- Se abrió el Bloc de notas.
+- Se escribió el código fuente en lenguaje Java.
+- Se guardó el archivo como `RegistroVehiculo.java` en la ruta: D:\instituto\semestre 2\app moviles\proyectojava
+
+## 2. Compilación del programa
+
+- Se abrió el símbolo del sistema (CMD).
+- Se navegó a la carpeta del proyecto  cd "D:\instituto\semestre 2\app moviles\proyectojava"
+- Se compiló el archivo con javac --release 8 RegistroVehiculo.java 
+- Se generó el archivo `RegistroVehiculo.class`.
+
+## 3. Ejecución del programa
+
+- Se ejecutó el programa java RegistroVehiculo
+- El programa solicitó los siguientes datos:
+- Marca
+- Modelo
+- Cilindrada
+- Tipo de combustible
+- Capacidad en pasajeros
+- Se ingresaron los datos y se mostraron correctamente en pantalla.
+
+## 4. Solución de errores
+
+- Al intentar ejecutar el programa, apareció el siguiente error UnsupportedClassVersionError
+- Esto ocurrió porque el programa fue compilado con una versión de Java más moderna que la instalada.
+- Se resolvió compilando con la opción `--release 8` para asegurar compatibilidad con Java SE 8.
+
+---
+
+## 5. Documentación del proyecto
+
+- Se crearon los siguientes archivos para registrar el trabajo realizado:
+- `README.md`: descripción general del proyecto y requerimientos
+- `Documentacion.md`: explicación detallada del código
+- `historias-de-usuario.md`: necesidades del usuario y criterios de aceptación
+- `cronograma.md`: planificación de tareas y fechas
+- `compilacion.md`: este documento
+
+- Todos los archivos fueron creados manualmente y subidos al repositorio en GitHub.
+
+
